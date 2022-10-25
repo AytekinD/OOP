@@ -1,9 +1,10 @@
-﻿using OOP_Giris.Bilgisayar;
+﻿using _2_Class_AnotherProject.Mobilyalar;
+using OOP_Giris.Bilgisayar;
 
 namespace OOP_Giris
 {
 
-    public class Personel   //risim belirteci:public
+    public class Personel   //erisim belirteci:public
     {
         public string Ad;
         public string Soyad;
@@ -62,6 +63,9 @@ namespace OOP_Giris
             };
 
             #endregion
+            
+            Masa masa = new Masa();
+            
 
         }
     }

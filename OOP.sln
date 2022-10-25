@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Giris", "OOP_Giris\OOP_Giris.csproj", "{7E5D5AAB-FA6C-43FB-9123-AF7D1A7D13B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Giris", "OOP_Giris\OOP_Giris.csproj", "{7E5D5AAB-FA6C-43FB-9123-AF7D1A7D13B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Class_AnotherProject", "2_Class_AnotherProject\2_Class_AnotherProject.csproj", "{053269AC-5AFB-48C7-AC81-2CECCDAB62AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Class_EnCapsulation", "3_Class_EnCapsulation\3_Class_EnCapsulation.csproj", "{413385D7-9195-4651-8930-F7F374A38F8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Kalitim", "4_Kalitim\4_Kalitim.csproj", "{C51726F4-86F5-4554-B4D7-7442460A5736}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{7E5D5AAB-FA6C-43FB-9123-AF7D1A7D13B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E5D5AAB-FA6C-43FB-9123-AF7D1A7D13B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E5D5AAB-FA6C-43FB-9123-AF7D1A7D13B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053269AC-5AFB-48C7-AC81-2CECCDAB62AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053269AC-5AFB-48C7-AC81-2CECCDAB62AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053269AC-5AFB-48C7-AC81-2CECCDAB62AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053269AC-5AFB-48C7-AC81-2CECCDAB62AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413385D7-9195-4651-8930-F7F374A38F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413385D7-9195-4651-8930-F7F374A38F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413385D7-9195-4651-8930-F7F374A38F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413385D7-9195-4651-8930-F7F374A38F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51726F4-86F5-4554-B4D7-7442460A5736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51726F4-86F5-4554-B4D7-7442460A5736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51726F4-86F5-4554-B4D7-7442460A5736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51726F4-86F5-4554-B4D7-7442460A5736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
