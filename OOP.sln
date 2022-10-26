@@ -5,11 +5,15 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Giris", "OOP_Giris\OOP_Giris.csproj", "{7E5D5AAB-FA6C-43FB-9123-AF7D1A7D13B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Class_AnotherProject", "2_Class_AnotherProject\2_Class_AnotherProject.csproj", "{053269AC-5AFB-48C7-AC81-2CECCDAB62AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Class_AnotherProject", "2_Class_AnotherProject\2_Class_AnotherProject.csproj", "{053269AC-5AFB-48C7-AC81-2CECCDAB62AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Class_EnCapsulation", "3_Class_EnCapsulation\3_Class_EnCapsulation.csproj", "{413385D7-9195-4651-8930-F7F374A38F8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Class_EnCapsulation", "3_Class_EnCapsulation\3_Class_EnCapsulation.csproj", "{413385D7-9195-4651-8930-F7F374A38F8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Kalitim", "4_Kalitim\4_Kalitim.csproj", "{C51726F4-86F5-4554-B4D7-7442460A5736}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Kalitim", "4_Kalitim\4_Kalitim.csproj", "{C51726F4-86F5-4554-B4D7-7442460A5736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Interface", "5_Interface\5_Interface.csproj", "{2D9356DE-A97A-464B-BB1B-AF7D9767CECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Lab", "Telefonlar\OOP_Lab.csproj", "{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{C51726F4-86F5-4554-B4D7-7442460A5736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C51726F4-86F5-4554-B4D7-7442460A5736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C51726F4-86F5-4554-B4D7-7442460A5736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9356DE-A97A-464B-BB1B-AF7D9767CECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9356DE-A97A-464B-BB1B-AF7D9767CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9356DE-A97A-464B-BB1B-AF7D9767CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9356DE-A97A-464B-BB1B-AF7D9767CECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

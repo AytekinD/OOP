@@ -8,7 +8,7 @@ namespace _4_Kalitim.Hayvanlar
 {
     public class BaseHayvanlar
     {
-        public string Tur { get; set; }
+        public string Adi { get; set; }
         public string Cinsiyet { get; set; }
         
 

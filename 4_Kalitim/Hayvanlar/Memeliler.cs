@@ -11,5 +11,18 @@ namespace _4_Kalitim.Hayvanlar
         public string Eteborlar { get; set; }
         public string Otoburlar { get; set; }
         
+        public void Kosabilir()
+        {
+
+        }
+        public void Yuzebilir()
+        {
+
+        }
+        public void ucabilir()
+        {
+
+        }
+
     }
 }
