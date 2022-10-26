@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Interface", "5_Interface\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Lab", "Telefonlar\OOP_Lab.csproj", "{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Interface_Lab", "7_Interface_Lab\7_Interface_Lab.csproj", "{6B340D63-9DB7-493C-98D3-5EE7180D3B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{949AB3CE-97E6-4B5D-8126-43A464FAA4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B340D63-9DB7-493C-98D3-5EE7180D3B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B340D63-9DB7-493C-98D3-5EE7180D3B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B340D63-9DB7-493C-98D3-5EE7180D3B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B340D63-9DB7-493C-98D3-5EE7180D3B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
