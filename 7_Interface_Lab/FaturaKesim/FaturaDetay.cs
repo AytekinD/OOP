@@ -1,0 +1,12 @@
+﻿namespace _7_Interface_Lab.FaturaKesim
+{
+    public class FaturaDetay
+    {
+        public int FaturaDetayId { get; set; }
+        public int FaturaNo { get; set; }
+        public Urun Urun { get; set; }
+        public decimal Miktar { get; set; } 
+        public decimal Fiyat { get; set; }
+        public decimal IndirimOrani { get; set; }
+    }
+}
