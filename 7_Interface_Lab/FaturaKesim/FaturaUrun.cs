@@ -13,7 +13,7 @@ namespace _7_Interface_Lab.FaturaKesim
         mililitre
     }
 
-    public class Urun
+    public class FaturaUrun
     {
         public string UrunAdi { get; set; }
         public decimal Fiyat { get; set; }
