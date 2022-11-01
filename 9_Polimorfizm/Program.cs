@@ -1,4 +1,5 @@
 ﻿using _9_Polimorfizm.AlanHesabi;
+using _9_Polimorfizm.Emlak;
 using _9_Polimorfizm.Personeller;
 
 namespace _9_Polimorfizm
@@ -26,36 +27,53 @@ namespace _9_Polimorfizm
 
             #region Maas Hesabi
 
-            Sekreter sekreter = new Sekreter() 
-            {
-                AdSoyad="Ayse",
-                CocukSayisi=4,
-                EgitimDurumu=EgitimDurumu.Lise
-            };
+            //Sekreter sekreter = new Sekreter() 
+            //{
+            //    AdSoyad="Ayse",
+            //    CocukSayisi=4,
+            //    EgitimDurumu=EgitimDurumu.Lise
+            //};
 
-            IT yazilimci = new IT()
-            {
-                AdSoyad = "Ali",
-                CocukSayisi = 2,
-                EgitimDurumu = EgitimDurumu.YuksekLisans,
-                Seviye = Seviye.Orta
-            };
-            ItMuduru ıtMuduru = new ItMuduru()
-            {
-                AdSoyad = "Fatma",
-                CocukSayisi = 3,
-                EgitimDurumu = EgitimDurumu.Doktora,
-                Performans = Performans.Iyi,
-                Seviye = Seviye.Usta
-            };
+            //IT yazilimci = new IT()
+            //{
+            //    AdSoyad = "Ali",
+            //    CocukSayisi = 2,
+            //    EgitimDurumu = EgitimDurumu.YuksekLisans,
+            //    Seviye = Seviye.Orta
+            //};
+            //ItMuduru ıtMuduru = new ItMuduru()
+            //{
+            //    AdSoyad = "Fatma",
+            //    CocukSayisi = 3,
+            //    EgitimDurumu = EgitimDurumu.Doktora,
+            //    Performans = Performans.Iyi,
+            //    Seviye = Seviye.Usta
+            //};
 
-            Console.WriteLine("Sekreter Maasi:" + sekreter.MaasHesapla());
-            Console.WriteLine("ORta YAzilimci Maasi:"+yazilimci.MaasHesapla());
-            Console.WriteLine("Usta YAzilimci Maasi:" + ıtMuduru.MaasHesapla());
-
+            //Console.WriteLine("Sekreter Maasi:" + sekreter.MaasHesapla());
+            //Console.WriteLine("ORta YAzilimci Maasi:"+yazilimci.MaasHesapla());
+            //Console.WriteLine("Usta YAzilimci Maasi:" + ıtMuduru.MaasHesapla());
 
             #endregion
 
+            #region Emlak
+
+            Kiraci Ali = new Kiraci()
+            {
+                AdSoyad = "Ali Veli",
+                Kimden = Kimden.Emlakci,
+                m2 = 80,
+                Esyali = true,
+                Site = true,
+                BulunduguKat = 3,
+                IlanNo = "1548755",
+                Aidat = 250
+            };
+            Console.WriteLine("Aylik Kira:" + Ali.KiraHesapla());
+            Console.WriteLine("Giris Masrafi:" + Ali.GirisMasrafi());
+            Console.WriteLine(Ali.ToString());
+            
+            #endregion
 
 
 
