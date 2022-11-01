@@ -1,4 +1,5 @@
 ﻿using _9_Polimorfizm.AlanHesabi;
+using _9_Polimorfizm.Araba;
 using _9_Polimorfizm.Emlak;
 using _9_Polimorfizm.Personeller;
 
@@ -58,23 +59,34 @@ namespace _9_Polimorfizm
 
             #region Emlak
 
-            Kiraci Ali = new Kiraci()
-            {
-                AdSoyad = "Ali Veli",
-                Kimden = Kimden.Emlakci,
-                m2 = 80,
-                Esyali = true,
-                Site = true,
-                BulunduguKat = 3,
-                IlanNo = "1548755",
-                Aidat = 250
-            };
-            Console.WriteLine("Aylik Kira:" + Ali.KiraHesapla());
-            Console.WriteLine("Giris Masrafi:" + Ali.GirisMasrafi());
-            Console.WriteLine(Ali.ToString());
-            
+            //Kiraci Ali = new Kiraci()
+            //{
+            //    AdSoyad = "Ali Veli",
+            //    Kimden = Kimden.Emlakci,
+            //    m2 = 80,
+            //    Esyali = true,
+            //    Site = true,
+            //    BulunduguKat = 3,
+            //    IlanNo = "1548755",
+            //    Aidat = 250
+            //};
+            //Console.WriteLine("Aylik Kira:" + Ali.KiraHesapla());
+            //Console.WriteLine("Giris Masrafi:" + Ali.GirisMasrafi());
+            //Console.WriteLine(Ali.ToString());
+
             #endregion
 
+            Grandtour clio = new Grandtour(true,450000,true)
+            {
+                Yil = 2019,
+                ElektrikliKoltukAyari = true,
+                
+                
+                Model = Model.Clio,
+                Km = 75000
+            };
+
+            Console.WriteLine("Clio Fiyat:"+ clio.FiyatHesap());
 
 
         }
