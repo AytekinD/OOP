@@ -13,7 +13,7 @@ namespace _11_EventLab
 
             Telefon telefon = new Telefon();
             Bomba bomba = new Bomba();
-            Insan arayan = new Insan();
+            
 
             #endregion
 
