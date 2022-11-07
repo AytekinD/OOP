@@ -43,7 +43,7 @@ namespace _7_Interface_Lab.FaturaKesim
             {
                 str += urun.UrunAdi + " " + urun.Adet + " " + urun.Fiyat + "\n";
             }
-            return "";
+            return str;
         }
 
     }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _7_Interface_Lab.Fırın
 {
-    public class Un
+    public interface IYogur
     {
-        public string Marka { get; set; }
-        public string Tur { get; set; }
+        void HamurYogur();
+
     }
 }

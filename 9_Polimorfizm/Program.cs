@@ -59,6 +59,9 @@ namespace _9_Polimorfizm
 
             #region Emlak
 
+            //HOCANİN YAPTİGİ FARKLİYDİ.
+
+
             //Kiraci Ali = new Kiraci()
             //{
             //    AdSoyad = "Ali Veli",

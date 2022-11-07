@@ -4,7 +4,7 @@ namespace _11_EventLab
 {
     internal class Program
     {
-        public delegate void EventTip(object sender);
+        public delegate void EventTip();
         static void Main(string[] args)
         {
 
@@ -13,6 +13,10 @@ namespace _11_EventLab
 
             Telefon telefon = new Telefon();
             Bomba bomba = new Bomba();
+            telefon.KelimeKullanildi += bomba.Patla;
+
+            telefon.Gorusme();
+
             
 
             #endregion

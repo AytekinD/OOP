@@ -65,7 +65,7 @@ namespace _7_Interface_Lab.FaturaKesim
 
         public bool FaturaKes(Personel personel, Musteri musteri, List<FaturaUrun> urunler)
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

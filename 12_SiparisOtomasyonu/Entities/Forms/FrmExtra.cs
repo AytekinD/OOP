@@ -16,5 +16,10 @@ namespace _12_SiparisOtomasyonu.Entities.Forms
         {
             InitializeComponent();
         }
+
+        private void btnExtraEkle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

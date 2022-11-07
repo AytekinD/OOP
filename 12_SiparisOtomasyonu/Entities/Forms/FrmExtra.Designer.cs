@@ -45,6 +45,7 @@
             this.btnExtraEkle.TabIndex = 9;
             this.btnExtraEkle.Text = "Ekle";
             this.btnExtraEkle.UseVisualStyleBackColor = true;
+            this.btnExtraEkle.Click += new System.EventHandler(this.btnExtraEkle_Click);
             // 
             // numericUpDownExtraFiyat
             // 
